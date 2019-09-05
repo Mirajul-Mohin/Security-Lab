@@ -1,0 +1,2 @@
+As the authentication is done using an API key which is visible to others. So, the attacker can extract the API key from the GET method parameter and use it to make his own requests impersonating the victim.
+

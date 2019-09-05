@@ -1,0 +1,2 @@
+Facebook logins are processed over https but Facebook authenticates browser using an API key which is sends as a GET method parameter. This API key is exposed to everyone and makes the authentication insecure.
+

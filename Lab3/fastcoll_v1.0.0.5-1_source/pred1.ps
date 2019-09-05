@@ -1,0 +1,21 @@
+PREFIX_PRE="%!PS-Adobe-1.0
+%%Creator: hax0r
+/blob ("
+PREFIX_POST=") def\n"
+
+IF_CLAUSE_PRE="blob ("
+IF_CLAUSE_POST=") eq\n{"
+
+ELSEIF_CLAUSE_PRE="} if\nblob ("
+ELSEIF_CLAUSE_POST=") eq\n{"
+
+ELSE_CLAUSE="} if{\n"
+
+ENDING="}\nshowpage"
+
+function gen_payload_by_id() {
+	local COLLISION_ID=$1
+	((COLLISION_ID--))
+	printf "/Times-Roman findfont 64 scalefont setfont \n
+	30 200 moveto\n(Behavior %s) show\n" $COLLISION_ID
+}
